@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 #group :development, :test do
  gem 'sqlite3'
 #end
@@ -11,6 +12,11 @@ gem 'rails', '4.0.0'
 #group :production do
  #gem 'pg'
 #end
+=======
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+
+>>>>>>> b0761eaff8f4a6d0efe2be2f0aea90b9f762959f
 =======
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

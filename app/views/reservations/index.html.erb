@@ -8,7 +8,12 @@
   </tr>
  
 <<<<<<< HEAD
+<<<<<<< HEAD
   <%=@reservations.each do |reservation| %>
+=======
+  <%= if @reservation!=nil
+    @reservation.each do |reservation| %>
+>>>>>>> b0761eaff8f4a6d0efe2be2f0aea90b9f762959f
 =======
   <%= if @reservation!=nil
     @reservation.each do |reservation| %>
@@ -19,8 +24,14 @@
       <td><%= reservation.dropoff_time %></td>
     </tr>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <% end %>
   </table>
+=======
+  <% end
+  end %>
+</table>
+>>>>>>> b0761eaff8f4a6d0efe2be2f0aea90b9f762959f
 =======
   <% end
   end %>

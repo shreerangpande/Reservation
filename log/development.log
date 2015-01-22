@@ -12231,6 +12231,7 @@ Processing by ReservationsController#new as HTML
   Rendered reservations/new.html.erb within layouts/application (8.5ms)
 Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.0ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 Started GET "/articles/new" for 127.0.0.1 at 2015-01-22 19:32:00 +0530
@@ -15339,5 +15340,7 @@ Processing by ReservationsController#index as HTML
   [1m[36mReservation Load (0.2ms)[0m  [1mSELECT "reservations".* FROM "reservations"[0m
   Rendered reservations/index.html.erb within layouts/application (4.4ms)
 Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.2ms)
+=======
+>>>>>>> b0761eaff8f4a6d0efe2be2f0aea90b9f762959f
 =======
 >>>>>>> b0761eaff8f4a6d0efe2be2f0aea90b9f762959f
